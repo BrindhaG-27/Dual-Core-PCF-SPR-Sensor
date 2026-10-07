@@ -1,150 +1,148 @@
-\# Dual-Core PCF-SPR Sensor
+# Dual-Core PCF-SPR Sensor
 
+## Project Overview
 
+This project presents a COMSOL Multiphysics simulation of a **Dual-Core Photonic Crystal Fiber-Based Surface Plasmon Resonance (PCF-SPR) Sensor** for multi-parameter and pathogen detection.
 
-\## Project Overview
+The proposed sensor combines photonic crystal fiber guidance with Surface Plasmon Resonance to enable sensitive detection of changes in the surrounding refractive index.
 
+---
 
+## Objectives
 
-This project presents a COMSOL Multiphysics simulation of a Dual-Core Photonic Crystal Fiber-Based Surface Plasmon Resonance (PCF-SPR) sensor for multi-parameter and pathogen detection.
+- Design a dual-core photonic crystal fiber structure.
+- Integrate a gold (Au) layer for Surface Plasmon Resonance.
+- Analyze electromagnetic field distribution.
+- Study the effect of refractive-index variation.
+- Investigate resonance wavelength shifts.
+- Evaluate sensor performance using sensitivity and Figure of Merit (FOM).
+- Explore potential biomedical and pathogen detection applications.
 
+---
 
+## Simulation Tool
 
-The proposed sensor combines the unique guiding properties of photonic crystal fiber with Surface Plasmon Resonance to enable sensitive detection of changes in the surrounding refractive index.
+**COMSOL Multiphysics**
 
+The model uses electromagnetic-wave simulation based on the **Finite Element Method (FEM)**.
 
+---
 
-\## Objectives
+## Key Parameters
 
-
-
-\- Design a dual-core photonic crystal fiber structure.
-
-\- Integrate a gold (Au) layer for Surface Plasmon Resonance.
-
-\- Analyze the interaction between the guided mode and surface plasmon mode.
-
-\- Study the effect of changes in surrounding refractive index.
-
-\- Investigate wavelength shifts and electric-field enhancement.
-
-\- Explore the potential of the sensor for biomedical and pathogen detection applications.
-
-
-
-\## Software
-
-
-
-\- COMSOL Multiphysics
-
-\- Electromagnetic Wave simulation
-
-\- Finite Element Method (FEM)
-
-
-
-\## Simulation Parameters
-
-
-
-| Parameter | Description |
-
+| Parameter | Value / Description |
 |---|---|
-
-| Structure | Dual-Core Photonic Crystal Fiber |
-
+| Fiber structure | Dual-Core Photonic Crystal Fiber |
 | Sensing mechanism | Surface Plasmon Resonance |
-
 | Metal layer | Gold (Au) |
+| Refractive index range | 1.35 – 1.37 |
+| Simulation software | COMSOL Multiphysics |
+| Numerical method | Finite Element Method |
+| Main analysis | Electric field, dispersion and wavelength response |
 
-| Refractive Index Range | 1.35 – 1.37 |
+---
 
-| Simulation Tool | COMSOL Multiphysics |
+## PCF Structure
 
-| Analysis | Electric field and wavelength response |
+The geometry of the proposed dual-core photonic crystal fiber is modeled in COMSOL.
 
+![PCF Geometry](Figures/geometry.png)
 
+![PCF Geometry - Detailed](Figures/geometry1.png)
 
-\## Methodology
+---
 
+## Mesh
 
+A finite-element mesh is generated over the PCF structure for electromagnetic analysis.
 
-The PCF-SPR structure is modeled using COMSOL Multiphysics. The geometry consists of a dual-core photonic crystal fiber with a metallic gold layer that supports Surface Plasmon Resonance.
+![COMSOL Mesh](Figures/mesh.png)
 
+---
 
+## Electric Field Distribution
 
-The electromagnetic properties of the structure are analyzed using the Finite Element Method. Changes in the surrounding refractive index are investigated by observing the corresponding resonance behavior and wavelength shift.
+The electric-field distribution is analyzed to investigate the interaction between the guided optical mode and the surface plasmon mode.
 
+![Electric Field](Figures/electric_field.png)
 
+![Electric Field Distribution](Figures/electric_field1.png)
 
-\## Results
+---
 
+## Dispersion Analysis
 
+The dispersion characteristics of the proposed structure are investigated to understand the modal behavior of the sensor.
 
-The simulation is used to investigate:
+![Dispersion Analysis](Figures/dispersion_analysis.png)
 
+---
 
+## Wavelength Response
 
-\- Electric-field distribution
+The resonance wavelength response is studied for different refractive-index conditions.
 
-\- Surface plasmon resonance behavior
+![Wavelength Shift](Figures/wavelength_shift.png)
 
-\- Resonance wavelength shift
+---
 
-\- Refractive-index-dependent response
+## Sensitivity Analysis
 
-\- Sensor sensitivity
+A linear fitting analysis is performed to study the relationship between refractive index and resonance wavelength.
 
+![Linear Fit](Figures/linear_fit.png)
 
+The diameter-dependent response is also investigated as part of the sensor optimization.
 
-\## Applications
+![Diameter Analysis](Figures/diameter.png)
 
+---
 
+## Figure of Merit
 
-The proposed PCF-SPR sensor has potential applications in:
+The Figure of Merit (FOM) is analyzed to evaluate the sensing performance of the proposed PCF-SPR structure.
 
+![Figure of Merit](Figures/fom.png)
 
+---
 
-\- Biomedical sensing
+## Applications
 
-\- Pathogen detection
+Potential applications include:
 
-\- Refractive-index sensing
+- Biomedical sensing
+- Pathogen detection
+- Refractive-index sensing
+- Chemical and biological detection
+- Medical diagnostics
 
-\- Chemical and biological detection
+---
 
-\- Medical diagnostics
+## Future Scope
 
+Future work can focus on:
 
+- Optimizing the PCF geometry.
+- Improving resonance coupling.
+- Optimizing the gold-layer parameters.
+- Increasing refractive-index sensitivity.
+- Investigating additional biological analytes.
+- Exploring practical experimental fabrication and validation.
 
-\## Project Files
+---
 
+## Project Files
 
+The repository contains the complete COMSOL Multiphysics model:
 
-The repository contains the COMSOL Multiphysics model used for the simulation.
+`Dual_Core_PCF_SPR Sensor_github.mph`
 
+The COMSOL model is stored using **Git LFS** because of its large file size.
 
+---
 
-`Dual\_Core\_PCF\_SPR Sensor\_github.mph`
+## Author
 
-
-
-\## Future Scope
-
-
-
-Future work can focus on optimizing the PCF geometry and metallic layer parameters to improve sensitivity, detection accuracy, and practical biomedical sensing performance.
-
-
-
-\## Author
-
-
-
-\*\*Brindha G\*\*
-
-
+**Brindha G**
 
 B.E. Electronics and Communication Engineering
-

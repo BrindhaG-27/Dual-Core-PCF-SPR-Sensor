@@ -103,8 +103,18 @@ The diameter-dependent response is also investigated as part of the sensor optim
 The Figure of Merit (FOM) is analyzed to evaluate the sensing performance of the proposed PCF-SPR structure.
 
 ![Figure of Merit](Figures/fom.png)
-
+ 
 ---
+
+## Key Results
+
+- Successfully modeled a dual-core photonic crystal fiber-based SPR sensor using COMSOL Multiphysics.
+- Investigated electromagnetic-field distribution and interaction between the guided mode and surface plasmon mode.
+- Analyzed dispersion characteristics of the proposed PCF-SPR structure.
+- Studied resonance wavelength shifts for refractive-index values in the range of 1.35–1.37.
+- Performed linear fitting to evaluate the relationship between refractive index and resonance wavelength.
+- Investigated diameter-dependent sensor response for structural optimization.
+- Evaluated sensing performance using the Figure of Merit (FOM).
 
 ## Applications
 
